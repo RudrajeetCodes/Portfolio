@@ -30,6 +30,12 @@ nav a:hover {
     color: #bdc1bd;
 }
 
+nav .logo {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+}
+
+
 ul {
     list-style: none;
     display: flex;
@@ -42,7 +48,22 @@ ul {
     padding: 20px;
 }
 
-nav .logo {
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 20px;
+#hero {
+    position: relative;
+}
+
+.hero-banner {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-avatar {
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
 }
