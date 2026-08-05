@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+#element {
+    color: gray;
+    font-weight: 600;
+}
+
+.typed-cursor {
+    color: gray;
+}
+
 
 header {
     position: fixed;
@@ -120,6 +129,7 @@ nav ul {
 .hero-text p {
     font-size: 16px;
     margin-bottom: 10px;
+    color: gray;
 }
 
 #about {
@@ -132,19 +142,19 @@ nav ul {
     margin-right: 8px;
 }
 
-.about-card span{
-    color:#fff;
-    font-weight:600;
+.about-card span {
+    color: #fff;
+    font-weight: 600;
 }
 
 .about-card {
     background: #1b1b1b;
     border: 1px solid rgba(255, 255, 255, .06);
     border-radius: 14px;
-    padding: 32px;
+    padding: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .20);
-    line-height: 1.8;
-    margin-bottom: 18px;
+    line-height: 1.3;
+    margin-bottom: 2px;
     color: #d0d0d0;
 
 }
@@ -163,6 +173,45 @@ nav ul {
     margin-bottom: 16px;
     margin-left: 12px;
 }
+
+.contact-card {
+    display: flex;
+}
+
+#contacts h2 {
+    margin-bottom: 20px;
+}
+
+.contact-links a {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    min-width: 120px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: color .2s ease;
+}
+
+.contact-links a:hover {
+    color: #bdc1bd;
+
+}
+
+.contact-links {
+    display: flex;
+    gap: 8px;
+}
+
+.contact-links i {
+    align-items: center;
+}
+
 
 footer {
     margin-top: 60px;
