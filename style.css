@@ -217,7 +217,7 @@ nav ul {
     align-items: center;
 }
 
-#projects{
+#projects {
     margin-top: 20px;
 }
 
@@ -225,11 +225,11 @@ nav ul {
     width: 100%;
     border-radius: 20px;
     margin-top: 14px;
-    transition:.3s;
+    transition: .3s;
 }
 
-.project-one:hover{
-    transform:scale(1.02);
+.project-one:hover {
+    transform: scale(1.02);
 }
 
 .project-content {
@@ -259,6 +259,35 @@ nav ul {
     border-radius: 8px;
     font-size: 13px;
     color: #cfcfcf;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.project-buttons a {
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, .06);
+    border-radius: 8px;
+
+    transition: all .2s ease;
+}
+
+.project-buttons a:hover {
+    background: #2a2a2a;
+    border-color: rgba(255, 255, 255, .15);
+    transform: translateY(-2px);
 }
 
 #github {
